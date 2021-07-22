@@ -90,8 +90,8 @@ fetchAllEmails().then((everyday_mailingList) => {
     var transporter = nodemailer.createTransport({
         service: 'gmail',
         auth: {
-            user: 'morningrobot@gmail.com',
-            pass: 'ggggffff'
+            user: 'greetyourgirlfriend@gmail.com',
+            pass: 'Mama!@#123'
         }
     });
 
