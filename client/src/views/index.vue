@@ -180,7 +180,7 @@ export default {
       payment_succ_message : false,
     };
   },
-   mounted() {
+  mounted() {
       let recaptchaScript = document.createElement('script')
       recaptchaScript.setAttribute('src', 'https://checkout.razorpay.com/v1/checkout.js')
       recaptchaScript.async = true;
